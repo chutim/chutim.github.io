@@ -300,8 +300,9 @@
               <ul class="contact">
                 <li>
                   <a
-                    href="mailto:timchu92@gmail.com"
+                    href=""
                     class="icon major contact fa-envelope-open"
+                    onclick="openMailer(this)"
                     ><span class="label">Email</span></a
                   >
                 </li>
@@ -344,5 +345,21 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      function decode(string) {
+        return string.replace(/[a-zA-Z]/g, char => {
+          return String.fromCharCode(
+            (char <= "Z" ? 90 : 122) >= (char = char.charCodeAt(0) + 13)
+              ? char
+              : char - 26
+          );
+        });
+      }
+      function openMailer(element) {
+        const decoded = decode("gvzpuh92@tznvy.pbz");
+        element.setAttribute("href", "mailto:" + decoded);
+        element.setAttribute("onclick", "");
+      }
+    </script>
   </body>
 </html>
