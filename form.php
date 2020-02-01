@@ -10,7 +10,7 @@ if($_POST["submit"]) {
     $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
 
     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-    console.log('Sent!');
+    // console.log('Sent!');
     // $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
 
