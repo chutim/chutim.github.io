@@ -109,6 +109,9 @@ section {
   display: block;
 }
 
+.resume-container {
+}
+
 body {
   line-height: 1;
 }
@@ -3069,7 +3072,7 @@ header h6 + p {
   }
 
   .split.style1 > :nth-child(2n - 1) {
-    width: calc(66.66666% - 2em);
+    width: calc(66.66666% - 6em);
   }
 
   .split.style1 > :nth-child(2n) {
@@ -3980,6 +3983,21 @@ body.is-preload #sidebar nav ul li {
 
 #intro p {
   font-size: 1.25em;
+}
+
+#intro .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+#headshot {
+  height: 17em;
+  width: 17em;
+  margin-top: 2em;
+  margin-right: 8em;
+  border: 2px solid rgb(49, 33, 85);
+  border-radius: 100%;
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 980px) {
