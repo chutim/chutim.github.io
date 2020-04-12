@@ -221,6 +221,10 @@ textarea {
   color: rgba(255, 255, 255, 0.274);
 }
 
+p.guide {
+  margin: 0;
+}
+
 @media screen and (max-width: 1680px) {
   body,
   input,
@@ -275,7 +279,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 h1,
@@ -2097,10 +2101,14 @@ button:hover:active:after,
 }
 
 .features section {
-  padding: 3.5em 3em 1em 7em;
+  padding: 1.5em 1.5em 1.5em 6em;
   width: 50%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
+}
+
+.features section p {
+  margin: 0;
 }
 
 .features section:nth-child(-n + 2) {
@@ -2125,8 +2133,8 @@ button:hover:active:after,
   -ms-transform: scale(1);
   transform: scale(1);
   position: absolute;
-  left: 3em;
-  top: 3em;
+  left: 1.5em;
+  top: 1.5em;
   opacity: 1;
 }
 
@@ -2727,7 +2735,7 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 1em 0;
+  margin: 0 0 0em 0;
   padding-left: 1em;
 }
 
@@ -3102,7 +3110,7 @@ body.is-ie .spotlights > section {
   border-radius: 0;
   display: block;
   position: relative;
-  width: 25em;
+  width: 28em;
 }
 
 .spotlights > section > .image img {
@@ -3180,7 +3188,7 @@ body.is-preload .spotlights > section > .content > .inner {
 
 @media screen and (max-width: 1680px) {
   .spotlights > section > .content {
-    padding: 4em 4em 2em 4em;
+    padding: 2em 2em 2em 2em;
   }
 }
 

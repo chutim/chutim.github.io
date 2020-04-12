@@ -13,7 +13,9 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
   <body class="is-preload">
     <!-- Sidebar -->
@@ -134,6 +136,57 @@
           /></a>
           <div class="content">
             <div class="inner">
+              <h2>Secondary Isolation Calculator</h2>
+              <h3>Utility Web App</h3>
+              <p></p>
+              <p>
+                In BioIVT's cell isolation laboratory, secondary isolations
+                (using immunomagnetic separation) are utilized to harvest white
+                blood cell subsets. The preparatory calculations and note-taking
+                are normally done with pen & paper. This web app streamlines
+                this process, reducing human error and saving time.
+              </p>
+              <p>
+                Built in JavaScript using React, Express, Node.js, and MongoDB /
+                Mongoose.
+              </p>
+              <ul class="actions">
+                <li>
+                  <a
+                    href="https://secondaryisolation.herokuapp.com/"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://github.com/chutim/secondary-isolations"
+                    class="icon major brands fa-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+              </ul>
+              <p class="guide">
+                Designed for use on desktop / laptop (phone use is not allowed
+                in the laboratory).
+                <br />
+                Note that only laboratory members have access to the full
+                functionality of the app.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <a class="image"
+            ><img src="images/bean.png" alt="" data-position="center center"
+          /></a>
+          <div class="content">
+            <div class="inner">
               <h2>Bean</h2>
               <h3>Social Media Hybrid App</h3>
               <p></p>
@@ -153,6 +206,8 @@
                   <a
                     href="https://capstone-96611.firebaseapp.com/"
                     class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     >Live</a
                   >
                 </li>
@@ -161,6 +216,8 @@
                   <a
                     href="https://github.com/Object-keys-twin/capstone-ionic"
                     class="icon major brands fa-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><span class="label">GitHub</span></a
                   >
                 </li>
@@ -204,6 +261,8 @@
                   <a
                     href="https://expo.io/@chutim/reading-glasses"
                     class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     >Live</a
                   >
                 </li>
@@ -211,6 +270,8 @@
                   <a
                     href="https://github.com/chutim/reading-glasses"
                     class="icon major brands fa-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><span class="label">GitHub</span></a
                   >
                 </li>
@@ -331,6 +392,8 @@
                   <a
                     href="https://github.com/chutim"
                     class="icon major contact brands fa-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><span class="label">GitHub</span></a
                   >
                 </li>
@@ -338,6 +401,8 @@
                   <a
                     href="https://www.linkedin.com/in/chutim/"
                     class="icon major contact brands fa-linkedin"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><span class="label">LinkedIn</span></a
                   >
                 </li>
@@ -353,7 +418,15 @@
       <div class="inner">
         <ul class="menu">
           <li>&copy; 2020 Timothy Chu</li>
-          <li>Template from: <a href="http://html5up.net">HTML5 UP</a></li>
+          <li>
+            Template from:
+            <a
+              href="http://html5up.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              >HTML5 UP</a
+            >
+          </li>
         </ul>
       </div>
     </footer>
@@ -368,7 +441,7 @@
     <script src="assets/js/main.js"></script>
     <script type="text/javascript">
       function decode(string) {
-        return string.replace(/[a-zA-Z]/g, char => {
+        return string.replace(/[a-zA-Z]/g, (char) => {
           return String.fromCharCode(
             (char <= "Z" ? 90 : 122) >= (char = char.charCodeAt(0) + 13)
               ? char
