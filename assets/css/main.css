@@ -3432,6 +3432,8 @@ body.is-ie .wrapper.fullscreen {
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper.fade-up.inactive > .inner,
@@ -3990,7 +3992,7 @@ body.is-preload #sidebar nav ul li {
   justify-content: space-between;
 }
 
-#headshot {
+img #headshot {
   height: 17em;
   width: 17em;
   margin-top: 2em;
