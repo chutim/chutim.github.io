@@ -294,6 +294,24 @@ h6 {
   margin: 0 0 0.5em 0;
 }
 
+.project-title {
+  margin: 0;
+}
+
+.project-title + h3 {
+  opacity: 0.5;
+  letter-spacing: 0.04em;
+}
+
+.project-desc {
+  color: rgb(223, 223, 223);
+}
+
+.project-stack-desc {
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+
 h1 a,
 h2 a,
 h3 a,
@@ -342,6 +360,10 @@ h3 {
 
 h4 {
   font-size: 1em;
+}
+
+.inner h4 {
+  margin: 0;
 }
 
 h5 {
@@ -2783,6 +2805,10 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
+}
+
+ul.actions.resume-button {
+  margin-bottom: 1.5em;
 }
 
 ul.actions li {
