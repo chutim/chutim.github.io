@@ -3992,7 +3992,7 @@ body.is-preload #sidebar nav ul li {
   justify-content: space-between;
 }
 
-img #headshot {
+#headshot {
   height: 17em;
   width: 17em;
   margin-top: 2em;
