@@ -3432,6 +3432,9 @@ body.is-ie .wrapper.fullscreen {
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
+}
+
+#intro.wrapper.fade-up > .inner {
   display: flex;
   justify-content: space-between;
 }
@@ -4002,7 +4005,7 @@ body.is-preload #sidebar nav ul li {
   justify-content: space-between;
 }
 
-#headshot {
+/* #headshot {
   height: 17em;
   width: 17em;
   margin-top: 2em;
@@ -4010,7 +4013,7 @@ body.is-preload #sidebar nav ul li {
   border: 2px solid rgb(49, 33, 85);
   border-radius: 100%;
   opacity: 0.85;
-}
+} */
 
 @media screen and (max-width: 980px) {
   #intro p br {
